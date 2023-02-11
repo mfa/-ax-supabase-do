@@ -4,6 +4,8 @@ store the webhook from AX in supabase
 
 this demo is deployed on DigitalOcean Functions
 
+blog post to this repository: <https://madflex.de/digitalocean-functions/>
+
 
 ### setup
 
@@ -20,7 +22,7 @@ html: text
 html_axite: text
 ```
 
-Update the environment variables in ``packages/ax-supabase/main/.env``
+Copy ``project.yml.template`` to ``project.yml`` and set the environment variables:
 ```
 SUPABASE_URL=my-url-to-my-awesome-supabase-instance
 SUPABASE_KEY=my-supa-dupa-secret-supabase-api-key
