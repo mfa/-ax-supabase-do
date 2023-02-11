@@ -32,6 +32,9 @@ and the webhook secret from AX:
 AX_WEBHOOK_SECRET=copy-from-collection-settings-and-set-your-url-there-too
 ```
 
+The function needs 512MB memory instead of the 256MB default! - This can be set in the DigitalOcean Functions UI for this function.
+
+
 ### deploy
 
 ```
