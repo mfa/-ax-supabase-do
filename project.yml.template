@@ -1,0 +1,12 @@
+---
+packages:
+  - name: ax-supabase
+    functions:
+      - name: main
+        runtime: python:3.9
+        web: true
+        webSecure: false
+        environment:
+          AX_WEBHOOK_SECRET: FIXME
+          SUPABASE_URL: FIXME
+          SUPABASE_KEY: FIXME
